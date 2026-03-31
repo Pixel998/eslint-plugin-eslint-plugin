@@ -57,9 +57,9 @@ module.exports = {
 
 <!-- begin auto-generated rule options list -->
 
-| Name                      | Description                                                                          | Type  |
-| :------------------------ | :----------------------------------------------------------------------------------- | :---- |
-| `additionalNodeTypeFiles` | Any additional regular expressions to consider source files defining AST Node types. | Array |
+| Name                      | Description                                                                          | Type  | Default |
+| :------------------------ | :----------------------------------------------------------------------------------- | :---- | :------ |
+| `additionalNodeTypeFiles` | Any additional regular expressions to consider source files defining AST Node types. | Array | `[]`    |
 
 <!-- end auto-generated rule options list -->
 
