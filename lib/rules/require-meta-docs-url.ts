@@ -73,7 +73,7 @@ const rule: Rule.RuleModule = {
     function isExpectedUrl(url: string | undefined | null): boolean {
       return Boolean(
         typeof url === 'string' &&
-          (expectedUrl === undefined || url === expectedUrl),
+        (expectedUrl === undefined || url === expectedUrl),
       );
     }
 
